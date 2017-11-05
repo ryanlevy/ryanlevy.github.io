@@ -27,11 +27,4 @@ Looking at Maxwell's equations we have
 
 $$ \nabla \times E= - \frac{\partial B}{\partial t} $$  
 
-However, \\(\frac{\partial B}{\partial t}=0\\), which seems to imply \\(E=0\\) here! To rectify this, we notice that the definition of EMF needs to take into account Lorentz force or  
-
-$$ \varepsilon = \oint \left(E+v\times B\right)\cdot d\ell $$
-
-Setting \\(E=0\\) and assuming constant \\(v,B\\) we again get the same answer of 
-
-$$ \boxed{\varepsilon = -\ell B v }\checkmark$$  
-
+However, \\(\frac{\partial B}{\partial t}=0\\), which seems to imply \\(E=0\\) here! To rectify this, we notice that it implies the electric field is a constant not zero, which makes sense given the EMF given above. It's also important to notice that you cannot move the time derivative past the integral sign without the chain rule, as the area part of the integral is time dependent.

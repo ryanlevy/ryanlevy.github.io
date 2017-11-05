@@ -82,7 +82,8 @@ Output:
      [ 0.  0.  0.  0.]
      [ 0.  0.  0.  0.]]
 
-
+While the finite difference scheme here worked, it required two matrix exponential calculations rather than one; in terms of operations the complex step method is better for larger matrices. See Ref [2] for cases in which the complex step has a lower relative error than finite difference schemes. 
+ 
 # References 
 
 [1] Squire, William, and Trapp, George, Using complex variables to estimate derivatives of real functions, *SIAM Review 40*, 1998, pp. 110-112. [DOI:10.1137/S003614459631241X](http://dx.doi.org/10.1137/S003614459631241X)  
