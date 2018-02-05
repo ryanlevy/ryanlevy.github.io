@@ -57,7 +57,7 @@ def makeH(L,eps_a,eps_b,V,p=None,plotDisorder=False):
 ```
 
 ## Case 1: Zero Disorder
-$$\epsilon_a=\epsilon_b$$
+$$p=0$$, which is the same as having a disorder strength of 0
 
 
 
@@ -66,7 +66,7 @@ eps_a = 1
 eps_b = 1
 V = 1
 L = 500
-H1 = makeH(L,eps_a,eps_b,V,plotDisorder=True)
+H1 = makeH(L,eps_a,eps_b,V,p=0,plotDisorder=True)
 plt.subplot(121)
 plt.imshow(H1)
 plt.title("Hamiltonian matrix")
