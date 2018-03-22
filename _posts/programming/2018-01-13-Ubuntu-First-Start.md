@@ -10,7 +10,7 @@ tags:
 excerpt: My initial installation for a new Ubuntu system
 #categories: programming linux
 ---
-Similar to my [python post]({{ site.baseurl }}{% post_url /programming/2018-01-13-Ubuntu-First-Start %}), I like to keep track of the _essential_ installations on a new Ubuntu system. 
+Similar to my [python post]({{ site.baseurl }}{% link _posts/programming/2017-06-06-Reinstalling-Python.md %}), I like to keep track of the _essential_ installations on a new Ubuntu system. 
 ## The Script
 Here is the compact version of everything: 
 ```bash

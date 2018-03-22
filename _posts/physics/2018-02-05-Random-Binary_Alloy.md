@@ -25,9 +25,22 @@ $$
 In other words, we choose between the energy \\(\epsilon_a\\) with a probability \\(p\\). 
 
 ## Making the Hamiltonian
-While ED generally takes place in the spin basis (where each element the Hamiltonian acts on is a configuration of spins), the model can instead be diagonalized in the site basis. What this means practically is that we can get to a bigger system size than if we used the spin basis
+Our overall goal is to analyze the wave functions generated from the eigenvalue equation 
 
+$$ H|\psi\rangle = E|\psi\rangle $$
 
+*i.e.* the time-independent Schrödinger equation.
+
+### The Method
+To construct the Hamiltonian we'll use a method known as exact diagonalization, where we explicitly construct a matrix representation of a finite sized system. After obtaining the matrix, we can diagonalize it exactly to obtain the full spectrum with `np.eigh` and analyze the wave function properties.  
+
+**Note:** using `np.eigh` vs `np.eig` is very important as there's better convergence once the eigenvalues are restricted to be real
+{: .notice}
+
+**Neat!** While ED generally takes place in the \\(S_z\\) spin basis (where each element the Hamiltonian acts on is a configuration of spins), this model can instead be diagonalized in the site basis. What this means practically is that we can get to a bigger system size than if we used the spin basis and we don't have to interpret the many-body basis - we directly calculate natural orbitals.
+{: .notice--success}
+
+### The Code
 ```python
 def makeH(L,eps_a,eps_b,V,p=None,plotDisorder=False):
     if p is None:
@@ -57,7 +70,7 @@ def makeH(L,eps_a,eps_b,V,p=None,plotDisorder=False):
 ```
 
 ## Case 1: Zero Disorder
-$$p=0$$, which is the same as having a disorder strength of 0
+$$p=0$$, which is the same as having a disorder strength of 0. We'll look at 3 states with the lowest, middle, and highest energy. 
 
 
 
