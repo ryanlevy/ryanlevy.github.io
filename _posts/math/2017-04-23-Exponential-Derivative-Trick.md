@@ -33,7 +33,7 @@ Asking what the imaginary part is to first order yields the derivative. Note tha
 ## Exponential Complex Step
 <small>From Ref. [\[2\]](#references)</small>  
 The same trick can be applied for matrices, particularly the exponential matrix function \\(\exp(A)\\). 
-Consider the Fréchet derivative (really a directional derivative) of a function \\(f(A)=\exp(A)\\). The derivative of \\(f\\) can be approxmated as
+Consider the Fréchet derivative (really a directional derivative) of a function \\(f(A)=\exp(A)\\). The derivative of \\(f\\) can be approximated as
 
 $$\frac{df}{dA_{ij}}=\frac{\text{Im}\left[ \exp(A+ihE_{ij}) \right]}{h} $$
 

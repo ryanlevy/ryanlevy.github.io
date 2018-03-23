@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Changing Area and Farady's Law"
+title:  "Changing Area and Faraday's Law"
 toc: true
 categories: 
   - physics
