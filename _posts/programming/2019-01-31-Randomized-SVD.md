@@ -6,7 +6,7 @@ categories:
 tags:
   - SVD
 header:
-  overlay_image: http://algorithm-interest-group.me/images/SVD.png
+  overlay_image: assets/images/SVD.png
   overlay_filter: 0.7
   overlay_color: "#333"
 excerpt: Improving low-rank SVD speeds and scaling by exploiting randomization
