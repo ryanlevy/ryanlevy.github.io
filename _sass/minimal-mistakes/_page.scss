@@ -107,7 +107,8 @@ body {
 
   p,
   li,
-  dl {
+  dl,
+ details>summary {
     font-size: $type-size-page;
   }
 
