@@ -112,6 +112,14 @@ body {
     font-size: $type-size-page;
   }
 
+  details>summary{
+    text-decoration: underline;
+    text-decoration-style: dotted;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+
   /* paragraph indents */
   p {
     margin: 0 0 $indent-var;
