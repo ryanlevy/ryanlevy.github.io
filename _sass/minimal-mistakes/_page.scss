@@ -115,6 +115,7 @@ body {
   details>summary{
     text-decoration: underline;
     text-decoration-style: dotted;
+    text-decoration-color: rgba(#000,0.35);
     &:hover{
       text-decoration: none;
     }
