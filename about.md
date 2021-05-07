@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: false
 ---
 <img align="right" src="https://github.com/ryanlevy.png" style="margin: 0px 10px" />
-My name is **Ryan Levy** and I'm a physics graduate student at the [University of Illinois at Urbana-Champaign](https://physics.illinois.edu). I use computational methods to study theoretical condensed matter and quantum computing, with a current focus on novel algorithms.
+My name is **Ryan Levy** and I'm a physics graduate student at the [University of Illinois Urbana-Champaign](https://physics.illinois.edu). I use computational methods to study theoretical condensed matter and quantum computing, with a current focus on novel algorithms.
 
 This site is a slow assembly of information and tricks that I've come across in my studies. 
 
