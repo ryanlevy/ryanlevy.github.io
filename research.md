@@ -55,11 +55,11 @@ Mitigating the Sign Problem Through Basis Rotations</summary>
   <div class="notice--info"><p>
 <b>Ryan Levy</b> and Bryan K. Clark<br /><br />
 
-Quantum Monte Carlo simulations of quantum many body systems are plagued by the Fermion sign problem. The computational complexity of simulating Fermions scales exponentially in the projection time $\beta$ and system size. The sign problem is basis dependent and an improved basis, for fixed errors, lead to exponentially quicker simulations.  We show how to use sign-free quantum Monte Carlo simulations to optimize over the choice of basis on large two-dimensional systems.  
-We numerically illustrate these techniques decreasing the 'badness' of the sign problem by optimizing over single-particle basis rotations on one and two-dimensional Hubbard systems.  We find a generic rotation which improves the average sign of the Hubbard model for a wide range of $U$ and densities for $4\times L$ systems.  In one example improvement, the average sign (and hence simulation cost at fixed accuracy) for the $16\times 4$ Hubbard model at $U/t=4$ and $n=0.75$ increases by $\exp\left[8.64(6)\beta\right]$. For typical projection times of $\beta\gtrapprox 100$, this accelerates such simulation by many orders of magnitude. </p></div>
+Quantum Monte Carlo simulations of quantum many body systems are plagued by the Fermion sign problem. The computational complexity of simulating Fermions scales exponentially in the projection time \(\beta\) and system size. The sign problem is basis dependent and an improved basis, for fixed errors, lead to exponentially quicker simulations.  We show how to use sign-free quantum Monte Carlo simulations to optimize over the choice of basis on large two-dimensional systems.  
+We numerically illustrate these techniques decreasing the 'badness' of the sign problem by optimizing over single-particle basis rotations on one and two-dimensional Hubbard systems.  We find a generic rotation which improves the average sign of the Hubbard model for a wide range of \(U\) and densities for \(4\times L\) systems.  In one example improvement, the average sign (and hence simulation cost at fixed accuracy) for the \(16\times 4\) Hubbard model at \(U/t=4\) and \(n=0.75\) increases by \(\exp\left[8.64(6)\beta\right]\). For typical projection times of \(\beta\gtrapprox 100\), this accelerates such simulation by many orders of magnitude. </p></div>
 
 </details>
-<!--[Phys](){: .btn .btn--info}-->  [arXiv:1907.02076](https://arxiv.org/abs/1907.02076){: .btn .btn--success}
+[Phys Rev Lett](https://journals.aps.org/prl/abstract/10.1103/PhysRevLett.126.216401){: .btn .btn--info} [arXiv:1907.02076](https://arxiv.org/abs/1907.02076){: .btn .btn--success} 
 
 <!--===================================================================--->
 
