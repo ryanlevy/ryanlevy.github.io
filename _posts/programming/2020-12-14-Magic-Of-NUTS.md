@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "Magic of NUTS"
+title:  "Magic of NUTS Presentation"
 categories:
   - programming
 tags:
