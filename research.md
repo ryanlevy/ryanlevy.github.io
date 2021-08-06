@@ -13,6 +13,17 @@ Here are some of the papers and work I've been involved with
 
 ## Tensor Network Methods
 
+<details>
+  <summary>Entanglement Entropy Transitions with Random Tensor Networks
+</summary>
+  
+  <div class="notice--info"><p>
+<b>Ryan Levy</b>,  Bryan K. Clark <br /><br />
+Entanglement is a key quantum phenomena and understanding transitions between phases of matter with different entanglement properties are an interesting probe of quantum mechanics. We numerically study a model of a 2D tensor network proposed to have an entanglement entropy transition first considered by Vasseur et al.[Phys. Rev. B 100, 134203 (2019)]. We find that by varying the bond dimension of the tensors in the network we can observe a transition between an area and volume phase with a logarithmic critical point around \(D\approx 2\). We further characterize the critical behavior measuring a critical exponent using entanglement entropy and the tripartite quantum mutual information, observe a crossover from a 'nearly pure' to entangled area law phase using the the distributions of the entanglement entropy and find a cubic decay of the pairwise mutual information at the transition. We further consider the dependence of these observables for different Rényi entropy. This work helps further validate and characterize random tensor networks as a paradigmatic examples of an entanglement transition.
+</p></div>
+
+</details>
+[arXiv:2108.02225](https://arxiv.org/abs/2108.02225){: .btn .btn--success}
 
 <!--The tensor network ansatz is a powerful tool for describing quantum states. Particularly in 1 dimension where we have efficient algorithms which let us probe novel states, like the superconducting pair-density wave state. 
 
