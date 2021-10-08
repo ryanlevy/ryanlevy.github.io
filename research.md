@@ -11,6 +11,20 @@ author_profile: true
 
 Here are some of the papers and work I've been involved with
 
+## Quantum Computing
+
+<details>
+  <summary>Classical Shadows for Quantum Process Tomography on Near-term Quantum Computers
+</summary>
+  
+  <div class="notice--info"><p>
+<b>Ryan Levy</b>,  Di Luo, Bryan K. Clark <br /><br />
+Quantum process tomography is a powerful tool for understanding quantum channels and characterizing properties of quantum devices. Inspired by recent advances using classical shadows in quantum state tomography[1], we have developed a classical shadow method, ShadowQPT, for quantum process tomography. ShadowQPT allows for the reconstruction of the Choi matrix for unitary and non-unitary processes including an efficient reconstruction of fixed-sized reduced processes; we also show how to predict the overlap between any arbitrary state and the output of the quantum channel on a different arbitrary state. We introduce both a scheme using ancilla qubits as well as a two-sided scheme with unitaries before and after the channel. A number of additional approximations and improvements are developed including the use of a pair-factorized Clifford shadow and a series of post-processing techniques which significantly enhance the accuracy for recovering the quantum channel. Both the theoretical scaling for large systems and the practicality of using shadow tomography on NISQ-era hardware are considered. Our algorithms have been implemented with both Pauli and Clifford measurements on the IonQ trapped ion quantum computer for quantum processes up to n=4 qubits (equivalent to the experimental complexity of n=8 qubits for quantum state tomography) and achieved good performance.
+</p></div>
+
+</details>
+[arXiv:2110.02965](https://arxiv.org/abs/2110.02965){: .btn .btn--success}
+
 ## Tensor Network Methods
 
 <details>
@@ -25,9 +39,6 @@ Entanglement is a key quantum phenomena and understanding transitions between ph
 </details>
 [arXiv:2108.02225](https://arxiv.org/abs/2108.02225){: .btn .btn--success}
 
-<!--The tensor network ansatz is a powerful tool for describing quantum states. Particularly in 1 dimension where we have efficient algorithms which let us probe novel states, like the superconducting pair-density wave state. 
-
-On the other hand, using tensor networks for 2D is still an open problem. We can still use quasi-2D systems (cylinders) where obtaining efficient parallelism with minimal memory overhead is important. -->
 
 <details>
   <summary>Distributed-Memory DMRG via Sparse and Dense Parallel Tensor Contractions
