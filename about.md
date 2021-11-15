@@ -6,7 +6,7 @@ author_profile: false
 ---
 <img align="right" src="https://github.com/ryanlevy.png" style="margin: 0px 10px;width:150px;border-radius:75%;" />
 My name is **Ryan Levy** and I'm a physics graduate student at the [University of Illinois Urbana-Champaign](https://physics.illinois.edu). 
-I received a BS in Physics from the University of Michigan in 2016, and am currently advised by [Bryan Clark](http://clark.physics.illinois.edu/index.html) at UIUC. 
+I received a BS in Physics from the University of Michigan in 2016, and I am currently advised by [Bryan Clark](http://clark.physics.illinois.edu/index.html) at UIUC. 
 I use computational and theoretical methods to study condensed matter and quantum computing, with a current focus on novel algorithms.
 
 This site is a slow assembly of information and tricks that I've come across in my studies. 
