@@ -6,7 +6,7 @@ author_profile: false
 ---
 <img align="right" src="https://github.com/ryanlevy.png" style="margin: 0px 10px;width:150px;border-radius:75%;" />
 My name is **Ryan Levy** and I'm a Research Fellow at Flatiron Institute [CCQ](https://www.simonsfoundation.org/flatiron/center-for-computational-quantum-physics/). 
-I received a BS in Physics from the University of Michigan in 2016, and received a PhD in physics under [Bryan Clark](http://clark.physics.illinois.edu/index.html) at the University of Illinois Urbana-Champaign in 2022. My thesis was titled _[Algorithmic advancements in correlated electron and quantum information simulation](https://www.ideals.illinois.edu/items/126710)_
+I received a BS in Physics from the University of Michigan in 2016, and received a PhD in physics under [Bryan Clark](http://clark.physics.illinois.edu/index.html) at the University of Illinois Urbana-Champaign in 2022. My thesis was titled _[Algorithmic advancements in correlated electron and quantum information simulation](https://www.ideals.illinois.edu/items/126710)_.
 
 I use computational and theoretical methods to study condensed matter and quantum information, with a focus on novel algorithms.
 
