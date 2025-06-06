@@ -13,11 +13,19 @@ I use computational and theoretical methods to study condensed matter and quantu
 This site is a slow assembly of information and tricks that I've come across in my studies. 
 
 
-This site's logo <img src="{{ "/assets/images/site_logo.png" | absolute_url }}" style="width:1em;height:1em;margin-bottom:0.2em" /> 
-is the matrix representation of a 3 site [Hubbard model](https://en.wikipedia.org/wiki/Hubbard_model) in the \\(S_z\\) basis with \\(U/t=1\\) at 2/3 filling. See my [research page](/research/#quantum-monte-carlo) for more!
-  
-<br />
-<br />
 
 When I'm not doing physics, you'll find me drinking copious amounts of ☕&nbsp;tea, 🚲&nbsp;biking, 📚&nbsp;reading comic books, or 💻&nbsp;programming.
 {: .notice}
+
+{% capture notice-text %}
+* This site's logo <img src="{{ "/assets/images/site_logo.png" | absolute_url }}" style="width:2em;height:2em;margin-bottom:0.2em" /> 
+is the matrix representation of a 3 site [Hubbard model](https://en.wikipedia.org/wiki/Hubbard_model) in the \\(S_z\\) basis with \\(U/t=1\\) at \\(n=2/3\\) filling.   
+See my [research page](/research/#quantum-monte-carlo) for more!
+* [My Erd&#337;s number is 4](https://mathscinet.ams.org/mathscinet/freetools/collab-dist?source=1448727&target=189017)
+* My [PhD Genealogical Tree](https://www.genealogy.math.ndsu.nodak.edu/id.php?id=307603) includes [Lennard-Jones](https://en.wikipedia.org/wiki/John_Lennard-Jones) and [ma](https://en.wikipedia.org/wiki/Georg_Joseph_Beer)[ny](https://en.wikipedia.org/wiki/Herman_Boerhaave) [physicians](https://en.wikipedia.org/wiki/Archibald_Hill)
+{% endcapture %}
+
+<div class="notice--info">
+  <h4 class="no_toc">Fun facts</h4>
+  {{ notice-text | markdownify }}
+</div>
