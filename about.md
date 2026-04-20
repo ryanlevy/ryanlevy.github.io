@@ -5,7 +5,7 @@ permalink: /about/
 author_profile: false
 ---
 <img align="right" src="https://github.com/ryanlevy.png" style="margin: 0px 10px;width:150px;border-radius:75%;" />
-My name is **Ryan Levy** and I'm currently a Quantum Solutions Specialist - Lattice Hamiltonians, leading the fundamental research applications at [PsiQuantum](https://www.psiquantum.com/). I was formally a Flatiron Research Fellow at the Center for Computational Quantum Physics ([CCQ](https://www.simonsfoundation.org/flatiron/center-for-computational-quantum-physics/)) at the Flatiron Institute, a division of the Simons Foundation. 
+My name is **Ryan Levy** and I'm currently Applications Lead - Fundamental Research at [PsiQuantum](https://www.psiquantum.com/), which I joined in 2025. I was formerly a Flatiron Research Fellow at the Center for Computational Quantum Physics ([CCQ](https://www.simonsfoundation.org/flatiron/center-for-computational-quantum-physics/)) at the Flatiron Institute, a division of the Simons Foundation. 
 
 I received a BS in Physics from the University of Michigan in 2016, and received a PhD in physics under [Bryan Clark](http://clark.physics.illinois.edu/index.html) at the University of Illinois Urbana-Champaign in 2022. My thesis was titled _[Algorithmic advancements in correlated electron and quantum information simulation](https://www.ideals.illinois.edu/items/126710)_.
 
