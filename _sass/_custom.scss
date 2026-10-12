@@ -1,0 +1,35 @@
+
+$type-size-page:   0.75em !default;   //~13px
+$type-size-notice: 0.75em !default;   //~12px
+
+.toc__menu {
+  @include breakpoint($large) {
+    font-size: $type-size-6;
+  }
+}
+@mixin notice($notice-color) {
+  font-size: $type-size-notice !important;
+}
+
+.page__content {
+  p,
+  li,
+  dl,
+ details>summary {
+    font-size: $type-size-page;
+  }
+}
+
+div.highlighter-rouge,
+figure.highlight {
+  font-size: $type-size-8;
+}
+
+details>summary{
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: rgba(#000,0.35);
+  &:hover{
+    text-decoration: none;
+  }
+}
