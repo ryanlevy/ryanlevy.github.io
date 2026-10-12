@@ -12,7 +12,7 @@ author_profile: true
 I've created or collaborated on several open source codes or projects
 
 
-## Quantum Computing Projects
+## Quantum Computing (NISQ) Projects
 
 
 <details>
