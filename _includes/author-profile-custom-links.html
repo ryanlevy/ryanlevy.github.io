@@ -5,3 +5,11 @@
     </a>
   </li>
 -->
+			<!-- modified from academic pages -->
+			{% if author.googlescholar %}
+				<li><a href="{{ author.googlescholar }}"><i class="fas fa-fw fa-graduation-cap"></i> Google Scholar</a></li>
+			{% endif %}
+			{% if author.orcid %}
+				<li><a href="{{ author.orcid }}"><i class="fab fa-orcid"></i> ORCID</a></li>
+			{% endif %}
+
